@@ -13,7 +13,7 @@ export const useStore = create((set) => ({
     // console.log("value changed");
     set({ gamestate });
   },
-  setCurrentQuestion: (currentQuestion) => set({ currentQuestion }),
+  setCurrentQuestion: (_current) => set({ currentQuestion: _current }),
   setOptionChoosen: (optionChoosen) => set({ optionChoosen }),
   setScore: (score) => set({ score }),
 
