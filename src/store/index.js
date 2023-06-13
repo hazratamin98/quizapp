@@ -9,12 +9,10 @@ export const useStore = create((set) => ({
   score: 0,
 
   setFirstName: (firstName) => set({ firstName }),
-
   setGameState: (gamestate) => {
     // console.log("value changed");
     set({ gamestate });
   },
-
   setCurrentQuestion: (currentQuestion) => set({ currentQuestion }),
   setOptionChoosen: (optionChoosen) => set({ optionChoosen }),
   setScore: (score) => set({ score }),

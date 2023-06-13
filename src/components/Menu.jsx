@@ -9,7 +9,6 @@ const Menu = () => {
 
   return (
     <div>
-      {/* {gamestate == "menu" && ( */}
       <div className="mt-10">
         <input
           className="px-2 py-2  rounded  text-black "
@@ -21,13 +20,11 @@ const Menu = () => {
           className="px-2 py-2 bg-blue-400 rounded ml-2 text-white"
           onClick={() => {
             setGameState("playing");
-            setFirstName("");
           }}
         >
           enter
         </button>
       </div>
-      {/* )} */}
     </div>
   );
 };
