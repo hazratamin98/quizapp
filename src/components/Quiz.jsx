@@ -70,7 +70,10 @@ const Quiz = () => {
             {Questions[currentQuestion].OptionD}
           </button>
         </div>
-        <h1 className="px-4 py-2 bg-blue-300 mt-2 rounded-xl">{score}</h1>
+        <h1 className="px-4 py-2 bg-blue-300 mt-2 rounded-xl text-white">
+          {" "}
+          Score : {score}
+        </h1>
       </div>
       <div className=" flex justify-end mr-8">
         {currentQuestion == Questions.length - 1 ? (
